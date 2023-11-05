@@ -3,7 +3,10 @@
 require_relative "client/utilities/version"
 
 module TradeAPlane
-  # module Client
   module Client
+    # class Search
+    class Search
+      def initialize; end
+    end
   end
 end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/trade_a_plane/client/version"
+require_relative "lib/trade_a_plane/client/utilities/version"
 
 Gem::Specification.new do |spec|
   spec.name = "trade_a_plane-client"
@@ -8,17 +8,18 @@ Gem::Specification.new do |spec|
   spec.authors = ["Jay Ravaliya"]
   spec.email = ["jayrav13@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "TOaDO: Write a short summary, because RubyGems requires one."
+  spec.description = "TOaDO: Write a longer description or delete this line."
+  spec.homepage = "https://github.com/jayrav13/trade_a_plane-client"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["homepage_uri"] = "https://github.com/jayrav13/trade_a_plane-client" # spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/jayrav13/trade_a_plane-client"
+  spec.metadata["changelog_uri"] = "https://github.com/jayrav13/trade_a_plane-client"
+  spec.metadata["rubygems_mfa_required"] = "true"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

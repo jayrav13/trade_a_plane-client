@@ -3,7 +3,7 @@
 require_relative "client/utilities/version"
 
 module TradeAPlane
-  # module Client
   module Client
+    class Error < StandardError; end
   end
 end
