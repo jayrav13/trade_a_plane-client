@@ -8,3 +8,7 @@ gemspec
 gem "rake", "~> 13.0"
 
 gem "rubocop", "~> 1.21"
+
+gem 'nokogiri', '~> 1.15', '>= 1.15.4'
+
+gem "typhoeus", "~> 1.4"

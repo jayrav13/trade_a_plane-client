@@ -2,7 +2,7 @@
 
 module TradeAPlane
   module Client
-    BASE_DOMAIN = "https://trade-a-plane.com"
+    BASE_DOMAIN = "https://www.trade-a-plane.com"
     SEARCH_PATH = "/search"
     SEARCH_URL = BASE_DOMAIN + SEARCH_PATH
   end
