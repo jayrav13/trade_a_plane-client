@@ -5,5 +5,7 @@ module TradeAPlane
     BASE_DOMAIN = "https://www.trade-a-plane.com"
     SEARCH_PATH = "/search"
     SEARCH_URL = BASE_DOMAIN + SEARCH_PATH
+
+    LOGGER_LEVELS = %i[info warn]
   end
 end
